@@ -1,0 +1,60 @@
+.search-bar
+{
+    width: 450px;
+    background-color: rgba(15, 13, 13, 0.877);
+    height: 300px;
+    margin: 20px;
+}
+
+
+
+
+
+.searchbar-heading
+{
+    color: whitesmoke;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center
+}
+.searchinput
+{
+    display: flex;
+    flex-direction:column;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+.search-input{
+    margin: 15px;
+    
+}
+.search-select::placeholder{
+    font-size: x-large;
+    color: black;
+}
+
+
+.checkin-checkout
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.datepicker{
+    font-size: small;
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.searchbutton{
+    width: 50%;
+    padding: 7px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 0px;
+}
